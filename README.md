@@ -1,4 +1,6 @@
-# Open-Source Standard Cell Design Methodology 
+# Standard Cell Library in SKY130 PDK
+
+<img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/lenzseg/std-cell-library-sky130?style=flat-square"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/lenzseg/std-cell-library-sky130?style=flat-square">
 
 A 12-track height standard cell library built in [SKY130 PDK](https://skywater-pdk.readthedocs.io/en/main/). It is made up of 12 combinational cells, which were designed using [Magic VLSI Layout Tool](https://github.com/RTimothyEdwards/magic) and characterized using [Digital Standard Cell Characterizer (DSCC)](https://github.com/nelzeg/stdcell-characterizer). 
 
@@ -42,4 +44,4 @@ It was developed a set of scripts during both the design process and the cell ch
 2. [Fo4](./scripts/fo4/) : Data and post-processing script for the Fo4 testbench.
 3. [Grid Template](./scripts/grid-template/) : Script to create custom height grids for layout implementation.
 4. [Inverter Chain](./scripts/inverter-chain/) : Data and post-processing scripts for the inverter chain testbench.
-5. [Results](./scripts/results/) : Testbench for timing measurements of the inverter designed with the optimal widths obtained.    
+5. [Results](./scripts/results/) : Testbench for timing measurements of the inverter designed with the optimal widths obtained.
